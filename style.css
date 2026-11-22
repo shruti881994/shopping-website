@@ -6,53 +6,53 @@
   --gd:#b08d57;
   --tx:#2b1d1a;
   --f1:'Cormorant Garamond',Georgia,serif;
-  --f2:'Jost',system-ui,sans-serif
+  --f2:'Jost',system-ui,sans-serif;
 }
 * {
   box-sizing:border-box;
-  margin:0
+  margin:0;
 }
 html {
-  scroll-behavior:smooth
+  scroll-behavior:smooth;
 }
 body {
   font:16px/1.65 var(--f2);
   /* background:var(--iv); */
-  color:var(--tx)
+  color:var(--tx);
 }
 img {
   max-width:100%;
-  display:block
+  display:block;
 }
 a {
   color:inherit;
-  text-decoration:none
+  text-decoration:none;
 }
 h1,h2,h3 {
   font-family:var(--f1);
   line-height:1.15;
-  color:var(--mr)
+  color:var(--mr);
 }
 h1 {
-  font-size:clamp(2.6rem,6vw,4.6rem)
+  font-size:clamp(2.6rem,6vw,4.6rem);
 }
 h2 {
   font-size:clamp(1.9rem,4vw,2.8rem);
-  margin-bottom:1.3em
+  margin-bottom:1.3em;
 }
 h3 {
-  font-size:1.3rem
+  font-size:1.3rem;
 }
 .w {
   max-width:1180px;
   margin:auto;
-  padding:0 20px
+  padding:0 20px;
 }
 .sec {
-  padding:72px 0
+  padding:72px 0;
 }
 .alt {
-  background:var(--cr)
+  background:var(--cr);
 }
 .banner {
     background: url(assets/images/banner/banner-1.png);
@@ -63,7 +63,7 @@ h3 {
 
 .banner h1, .banner p{text-align: left;}
 .c {
-  text-align:center
+  text-align:center;
 }
 .top {
   background:var(--mr);
@@ -78,14 +78,14 @@ header {
   z-index:50;
   background:#fff;
   backdrop-filter:blur(8px);
-  border-bottom:1px solid #e3d3b3
+  border-bottom:1px solid #e3d3b3;
 }
 .hd {
   display:flex;
   align-items:center;
   justify-content:space-between;
   height:70px;
-  gap:16px
+  gap:16px;
 }
 .logo {
   font-family:var(--f1);
@@ -95,10 +95,10 @@ header {
   display:flex;
   align-items:center;
   gap:10px;
-  letter-spacing:.04em
+  letter-spacing:.04em;
 }
 .logo img {
-  width:34px
+  width:34px;
 }
 .logo small {
     display: block;
@@ -132,25 +132,25 @@ header {
 }
 nav {
   display:flex;
-  gap:26px
+  gap:26px;
 }
 nav a {
   font-size:17px;
   padding:4px 0;
   font-weight: 600;
-  border-bottom:2px solid transparent
+  border-bottom:2px solid transparent;
 }
 nav a:hover,nav a.on {
-  border-color:var(--gd)
+  border-color:var(--gd);
 }
 .ic {
   display:flex;
-  gap:6px
+  gap:6px;
 }
 .ic a {
   position:relative;
   padding:8px;
-  font-size:1.2rem
+  font-size:1.2rem;
 }
 .fa-solid{color:var(--mr);}
 .fa-truck-fast, .fa-angle-right, .fa-box-open, .fa-location-dot{color: #fff;}
@@ -170,7 +170,7 @@ nav a:hover,nav a.on {
   height:18px;
   border-radius:9px;
   text-align:center;
-  line-height:18px
+  line-height:18px;
 }
 .mb {
   display:none;
@@ -178,7 +178,7 @@ nav a:hover,nav a.on {
   border:0;
   font-size:1.6rem;
   color:var(--mr);
-  cursor:pointer
+  cursor:pointer;
 }
 .btn {
   display:inline-block;
@@ -189,11 +189,11 @@ nav a:hover,nav a.on {
   font:500 .95rem var(--f2);
   cursor:pointer;
   border-radius:50px;
-  transition:.25s
+  transition:.25s;
 }
 .btn:hover {
   background:var(--rd);
-  border-color:var(--rd)
+  border-color:var(--rd);
 }
 .btn.o {
   background:transparent;
@@ -201,16 +201,16 @@ nav a:hover,nav a.on {
 }
 .btn.o:hover {
   background:var(--mr);
-  color:#fff
+  color:#fff;
 }
 .btn.g {
   background:#1f7a4d;
   border-color:#1f7a4d;
-  color:#fff
+  color:#fff;
 }
 .btn.w100 {
   width:100%;
-  text-align:center
+  text-align:center;
 }
 .hero {
   min-height:78vh;
@@ -221,25 +221,25 @@ nav a:hover,nav a.on {
 }
 .hero h1 {
   color:#fff;
-  max-width:620px
+  max-width:620px;
 }
 .hero p {
   max-width:480px;
   margin:18px 0 28px;
-  font-size:1.1rem
+  font-size:1.1rem;
 }
 .hero .btn.o {
   color:#fff;
-  border-color:#fff
+  border-color:#fff;
 }
 .hero .btn.o:hover {
   background:#fff;
-  color:var(--mr)
+  color:var(--mr);
 }
 .grid {
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
-  gap:26px
+  gap:26px;
 }
 .card {
   background:#fff;
@@ -249,7 +249,7 @@ nav a:hover,nav a.on {
 }
 .card:hover {
   box-shadow:0 12px 30px rgba(110,20,35,.15);
-  transform:translateY(-4px)
+  transform:translateY(-4px);
 }
 
 /* =================================
@@ -278,7 +278,7 @@ nav a:hover,nav a.on {
   overflow: hidden;
   background:
     linear-gradient(rgba(48, 22, 25, .72), rgba(48, 22, 25, .72)),
-    url("assets/images/shipping-banner.jpg") center 45% / cover no-repeat,
+    url("assets/images/banner/banner-1.png") center 45% / cover no-repeat,
     var(--gd);
   color: #fff;
 }
@@ -730,9 +730,6 @@ nav a:hover,nav a.on {
 .cd i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.75);box-shadow:0 0 2px rgba(0,0,0,.4)}
 .cd i.on{background:var(--mr)}
 @media(hover:none){.cd{display:flex}}                 /* dots only on phones/tablets */
-.cd{position:absolute;bottom:10px;left:0;right:0;z-index:2;display:flex;justify-content:center;gap:6px}
-.cd i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.75);box-shadow:0 0 2px rgba(0,0,0,.4)}
-.cd i.on{background:var(--mr)}
 .im {
   display:block;
   position:relative;
@@ -884,7 +881,7 @@ nav a:hover,nav a.on {
 }
 
 .shipping-contact-number a:hover {
-  color: color:var(--gd);
+  color: var(--gd);
 }
 .raga-location{border-top: 1px solid #efefef;}
 .raga-location .tag{color:var(--gd)}
@@ -1399,12 +1396,10 @@ nav.open {
   background-size: cover;
   
   background-image: linear-gradient(90deg,rgba(50,6,14,.92) 30%,rgba(50,6,14,.55) 85%,rgba(50,6,14,.05) 100%), url(assets/images/gallery/responsive-banner.png);
-
+}
 .sld,.sl.on {
   min-height:76vh;
 }
-
-
 }
 [hidden] {
   display:none!important

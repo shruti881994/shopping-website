@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      Shop All Sarees | RAGA ILKAL SAREES
+    </title>
+    <meta name="description" content="Browse, search and filter Ilkal and festive sarees by category and price.">
+    <meta property="og:title" content="Shop All Sarees | RAGA ILKAL SAREES">
+    <meta property="og:description" content="Browse, search and filter Ilkal and festive sarees by category and price.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/banner/hero.png">
+    <link rel="icon" href="assets/icons/logo.svg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-page="shop">
+    <!-- EDIT: announcement bar offer text. To show free shipping, add the text here (only if you really offer it). -->
+    <div class="top">
+      Enjoy special offer prices on selected sarees. Orders are confirmed over WhatsApp.
+    </div>
+    <header>
+      <div class="w hd">
+        <a class="logo" href="index.html">
+          <img src="assets/icons/logo.svg" alt="" width="34" height="34">
+          <div class="logo-text">
+            <span>
+              RAGA ILKAL SAREES
+            </span>
+            <small>
+              TRADITION WOVEN IN STYLE
+            </small>
+          </div>
+        </a>
+        <nav id="nav" aria-label="Main">
+          <a href="index.html">
+            Home
+          </a>
+          <a href="about.html">
+            About Us
+          </a>
+          <a href="collections.html" class=on>
+            Collections
+          </a>
+          <a href="contact.html">
+            Contact
+          </a>
+        </nav>
+        <div class="ic">
+          <a href="collections.html#search" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass">
+            </i>
+          </a>
+          <a href="cart.html" aria-label="Cart">
+            <i class="fa-solid fa-cart-shopping">
+            </i>
+            <span class="bd" id="bd">
+              0
+            </span>
+          </a>
+          <button class="mb" aria-label="Menu" id="mb">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="marquee">
+  <div class="marquee-content">
+    <span>✨ RAGA ILKAL SAREES – Tradition Woven in Style</span>
+    <span>ROOTED IN KARNATAKA. BASED IN BENGALURU.</span>
+    <span>❤️ Celebrate Karnataka's Handloom Heritage</span>
+    <span>Bringing the beauty of traditional Ilkal sarees to customers across India.</span>
+    <span>🚚 PAN-INDIA ORDERS WELCOME</span>
+  </div>
+  
+</div>
+  
+    <main>
+      <section class="sec alt c banner">
+        <div class="w">
+          <h1 style="font-size:clamp(2.2rem,5vw,3.4rem)">
+            Shop All Sarees
+          </h1>
+          <p>
+            Browse our collection of Ilkal and festive sarees.
+          </p>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="w">
+          <div class="bar">
+            <input id="q" type="search" placeholder="Search sarees…" aria-label="Search sarees">
+            <select id="cat" aria-label="Category">
+              <option value="">
+                All categories
+              </option>
+              <option>
+                Kasuti
+              </option>
+              <option>
+                Viscose Silk
+              </option>
+              <option>
+                Ilkal Cotton Zari lining
+              </option>
+              <option>
+                Ilkal Cotton Zari Checks
+              </option>
+              <option>
+                Tom Tom Checks Ilkal Saree with Zari Border
+              </option>
+            </select>
+            <select id="srt" aria-label="Sort">
+              <option value="">
+                Sort: Featured
+              </option>
+              <option value="new">
+                New arrivals
+              </option>
+              <option value="lo">
+                Price: low to high
+              </option>
+              <option value="hi">
+                Price: high to low
+              </option>
+              <option value="off">
+                Biggest discount
+              </option>
+            </select>
+          </div>
+          <!-- ADD A NEW SAREE: copy one <article class="card">
+           block, change data-id (unique), photos, name, prices and link. For a saree with several colours, copy a card that has the colour swatches (.sw). -->
+          <div class="grid" id="g">
+            <article class="card" data-product data-id="1" data-cat="Ilkal" data-new="1">
+              <a class="im" href="ilkal-ikkat-design-viscose-silk.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/pochampally-2.png" alt="Ilkal Ikkat design Viscose Silk – Yellow &amp; Blue">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="ilkal-ikkat-design-viscose-silk.html">
+                    Ilkal Ikkat design Viscose Silk
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹3,200
+                  </b>
+                  <s>
+                    ₹4,000
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Yellow &amp; Blue" data-colour="Yellow &amp; Ivory Cream" data-key="yellow-and-ivory" data-offer="3200" data-price="4000" data-imgs="assets/images/products/pochampally-2.png">
+                    <img loading="lazy" src="assets/images/products/pochampally-2.png" alt="Yellow &amp; Blue" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Ivory Cream" data-colour="Ivory Cream" data-key="ivory-cream" data-offer="3200" data-price="4000" data-imgs="assets/images/products/pochampally-1.png">
+                    <img loading="lazy" src="assets/images/products/pochampally-1.png" alt="Colour 2" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Yellow &amp; Blue
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="ilkal-ikkat-design-viscose-silk.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="4" data-cat="Ilkal" data-new="0">
+              <a class="im" href="ilkal-cotton-zari-lining.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/Yellow-and-Maroon-cotton-Saree.png" alt="Ilkal Cotton Zari lining – Yellow &amp; Maroon">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/LuxuriousYellowandMaroon-pallu.png" alt="Ilkal Cotton Zari lining – Yellow &amp; Maroon pallu close-up">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="ilkal-cotton-zari-lining.html">
+                    Ilkal Cotton Zari lining
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹2,300
+                  </b>
+                  <s>
+                    ₹2,875
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Yellow &amp; Maroon" data-colour="Yellow &amp; Maroon" data-key="yellow-and-maroon" data-offer="2300" data-price="2875" data-imgs="assets/images/products/Yellow-and-Maroon-cotton-Saree.png|assets/images/products/LuxuriousYellowandMaroon-pallu.png">
+                    <img loading="lazy" src="assets/images/products/Yellow-and-Maroon-cotton-Saree.png" alt="Yellow &amp; Maroon" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Royal Blue" data-colour="Royal Blue" data-key="royal-blue" data-offer="2300" data-price="2875" data-imgs="assets/images/products/Blue-Zari-Saree-with-Golden-Accents.png|assets/images/products/Blue-Saree-Pallu-with-Gold-Zari.png">
+                    <img loading="lazy" src="assets/images/products/Blue-Zari-Saree-with-Golden-Accents.png" alt="Royal Blue" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Magenta Purple" data-colour="Magenta Purple" data-key="magenta-purple" data-offer="2300" data-price="2875" data-imgs="assets/images/products/Magenta-Purple%20Zari-Saree.png|assets/images/products/silk-purple-1.png">
+                    <img loading="lazy" src="assets/images/products/Magenta-Purple%20Zari-Saree.png" alt="Magenta Purple" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Yellow &amp; Maroon
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="ilkal-cotton-zari-lining.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="6" data-cat="Ilkal" data-new="0">
+              <a class="im" href="ilkal-cotton-zari-checks.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/Royal-Blue-zari.png" alt="Ilkal Cotton Zari Checks – Royal Blue">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/Royal-Blue-zari-pallu.png" alt="Ilkal Cotton Zari Checks – Royal Blue pallu close-up">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="ilkal-cotton-zari-checks.html">
+                    Ilkal Cotton Zari Checks
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹2,300
+                  </b>
+                  <s>
+                    ₹2,875
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Royal Blue" data-colour="Royal Blue" data-key="royal-blue" data-offer="2300" data-price="2875" data-imgs="assets/images/products/Royal-Blue-zari.png|assets/images/products/Royal-Blue-zari-pallu.png">
+                    <img loading="lazy" src="assets/images/products/Royal-Blue-zari.png" alt="Royal Blue" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Olive Green" data-colour="Olive Green" data-key="olive-green" data-offer="2300" data-price="2875" data-imgs="assets/images/products/olivegold-zari.png|assets/images/products/Elegant-Black-and-Olive-Zari-pallu.png">
+                    <img loading="lazy" src="assets/images/products/olivegold-zari.png" alt="Olive Green" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Mustard Brown" data-colour="Mustard Brown" data-key="mustard-brown" data-offer="2300" data-price="2875" data-imgs="assets/images/products/Elegant-Black-and-Olive-Zari.png|assets/images/products/SilverTrimmed%20BlackSaree.png">
+                    <img loading="lazy" src="assets/images/products/Elegant-Black-and-Olive-Zari.png" alt="Mustard Brown" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Blue &amp; Maroon" data-colour="Blue &amp; Maroon" data-key="blue-and-maroon" data-offer="2300" data-price="2875" data-imgs="assets/images/products/elegant-blue-maroonzari-saree.png">
+                    <img loading="lazy" src="assets/images/products/elegant-blue-maroonzari-saree.png" alt="Blue &amp; Maroon" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Royal Blue
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="ilkal-cotton-zari-checks.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="10" data-cat="Ilkal" data-new="0">
+              <a class="im" href="tom-tom-checks-ilkal-saree-with-zari-border.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/RoyalBlue-checksSaree-GoldZari.png" alt="Tom Tom Checks Ilkal Saree with Zari Border – Blue">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="tom-tom-checks-ilkal-saree-with-zari-border.html">
+                    Tom Tom Checks Ilkal Saree with Zari Border
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹1,800
+                  </b>
+                  <s>
+                    ₹2,250
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Blue" data-colour="Blue" data-key="blue" data-offer="1800" data-price="2250" data-imgs="assets/images/products/RoyalBlue-checksSaree-GoldZari.png">
+                    <img loading="lazy" src="assets/images/products/RoyalBlue-checksSaree-GoldZari.png" alt="Blue" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Maroon" data-colour="Maroon" data-key="maroon" data-offer="1800" data-price="2250" data-imgs="assets/images/products/checks-1.png">
+                    <img loading="lazy" src="assets/images/products/checks-1.png" alt="Maroon" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Blue
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="tom-tom-checks-ilkal-saree-with-zari-border.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="14" data-cat="Ilkal" data-new="0">
+              <a class="im" href="ilkal-cotton-temple-border-plain-saree.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/GoldenSkylineSaree.png" alt="Ilkal cotton temple border plain saree – Golden">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="ilkal-cotton-temple-border-plain-saree.html">
+                    Ilkal cotton temple border plain saree
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹1,800
+                  </b>
+                  <s>
+                    ₹2,250
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Golden" data-colour="Golden" data-key="golden" data-offer="1800" data-price="2250" data-imgs="assets/images/products/GoldenSkylineSaree.png">
+                    <img loading="lazy" src="assets/images/products/GoldenSkylineSaree.png" alt="Golden" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Royal Blue" data-colour="Royal Blue" data-key="royal-blue" data-offer="2200" data-price="2600" data-imgs="assets/images/products/royalblue-plane-saree.png|assets/images/products/plaine-saree-pallu.jpeg">
+                    <img loading="lazy" src="assets/images/products/royalblue-plane-saree.png" alt="Royal Blue" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Green" data-colour="Green" data-key="green" data-offer="2200" data-price="2600" data-imgs="assets/images/products/VibrantGreenSaree.png">
+                    <img loading="lazy" src="assets/images/products/VibrantGreenSaree.png" alt="Green" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Golden
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="ilkal-cotton-temple-border-plain-saree.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="15" data-cat="Ilkal" data-new="0">
+              <a class="im" href="zari-ilkal-saree.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/plane-saree-1.png" alt="Zari Ilkal Saree – Wine Maroon &amp; Black">
+                <span class="badge js-pct">
+                  25% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="zari-ilkal-saree.html">
+                    Zari Ilkal Saree
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹1,700
+                  </b>
+                  <s>
+                    ₹2,267
+                  </s>
+                </span>
+                <!-- COLOURS: one button per colour (data-key unique; data-imgs = main | pallu | blouse photos) -->
+                <div class="sw sm" role="group" aria-label="Choose colour">
+                  <button type="button" class="on" aria-pressed="true" title="Wine Maroon &amp; Black" data-colour="Wine Maroon &amp; Black" data-key="wine-maroon-and-black" data-offer="1700" data-price="2267" data-imgs="assets/images/products/plane-saree-1.png">
+                    <img loading="lazy" src="assets/images/products/plane-saree-1.png" alt="Wine Maroon &amp; Black" width="26" height="26">
+                  </button>
+                  <button type="button" class="" aria-pressed="false" title="Rani Pink &amp; Black" data-colour="Rani Pink &amp; Black" data-key="rani-pink-and-black" data-offer="1700" data-price="2267" data-imgs="assets/images/products/plane-saree-2.png">
+                    <img loading="lazy" src="assets/images/products/plane-saree-2.png" alt="Rani Pink &amp; Black" width="26" height="26">
+                  </button>
+                </div>
+                <small class="cn">
+                  Colour: 
+                  <b>
+                    Wine Maroon &amp; Black
+                  </b>
+                </small>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="zari-ilkal-saree.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="3" data-cat="Ilkal" data-new="0">
+              <a class="im" href="hand-embroidery-cotton-kasuti-saree.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/kasuti1.png" alt="Hand Embroidery Cotton Kasuti Saree">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="hand-embroidery-cotton-kasuti-saree.html">
+                    Hand Embroidery Cotton Kasuti Saree
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹2,300
+                  </b>
+                  <s>
+                    ₹2,875
+                  </s>
+                </span>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="hand-embroidery-cotton-kasuti-saree.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="2" data-cat="Ilkal" data-new="0">
+              <a class="im" href="royal-blue-with-gold-butti-and-zari-border.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/royal-blue-1.png" alt="Royal Blue with Gold Butti &amp; Zari Border">
+                <span class="badge js-pct">
+                  20% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="royal-blue-with-gold-butti-and-zari-border.html">
+                    Royal Blue with Gold Butti &amp; Zari Border
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹1,600
+                  </b>
+                  <s>
+                    ₹2,000
+                  </s>
+                </span>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="royal-blue-with-gold-butti-and-zari-border.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+            <article class="card" data-product data-id="16" data-cat="Ilkal" data-new="0">
+              <a class="im" href="elegant-beige-color-with-rust-ikat-border.html">
+                <img loading="lazy" width="600" height="800" src="assets/images/products/elegant-beige-saree-with-rust-Ikat-border.png" alt="Elegant Beige color with rust Ikat border">
+                <span class="badge js-pct">
+                  25% OFF
+                </span>
+              </a>
+              <div class="ci">
+                <h3>
+                  <a href="elegant-beige-color-with-rust-ikat-border.html">
+                    Elegant Beige color with rust Ikat border
+                  </a>
+                </h3>
+                <span class="pr">
+                  <b>
+                    ₹1,700
+                  </b>
+                  <s>
+                    ₹2,267
+                  </s>
+                </span>
+                <br>
+                <button class="btn" data-add>
+                  Add to Cart
+                </button>
+                <a class="lnk" href="elegant-beige-color-with-rust-ikat-border.html">
+                  View Details
+                </a>
+              </div>
+            </article>
+          </div>
+          <p id="none" class="c" hidden>
+            No sarees match your search. Try another word or category.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="w col">
+        <div>
+          <h4>
+            RAGA ILKAL SAREES
+          </h4>
+          <p>
+            Traditional Ilkal and ethnic sarees, celebrating Karnataka's textile heritage.
+          </p>
+        </div>
+        <div>
+          <h4>
+            Quick Links
+          </h4>
+          <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="collections.html">Our Collections</a>
+        <a href="contact.html">Contact Us</a>
+          <a href="cart.html">
+            Cart
+          </a>
+          <a href="checkout.html">
+            Check Out
+          </a>
+
+        </div>
+        <!-- <div>
+          <h4>
+            Shop Categories
+          </h4>
+          <a href="collections.html?cat=Ilkal">
+            Ilkal Sarees
+          </a>
+          <a href="collections.html?cat=Festive">
+            Festive Sarees
+          </a>
+        </div> -->
+        <div>
+          <h4>
+            Connect
+          </h4>
+          <a href="about.html">
+            About Us
+          </a>
+          <a href="contact.html">
+            Contact Us
+          </a>
+          <a href="shipping-policy" target="_blank" rel="noopener">
+            Shipping Policy
+          </a>
+         
+          <a href="https://wa.me/918722827574?text=Hello%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener">
+            WhatsApp
+          </a>
+          <a href="https://www.instagram.com/raga_ilkal_sarees?avpt=cXhvYzVpdXU2cmF6&utm_source=qr" target="_blank" rel="noopener">
+            Instagram
+          </a>
+          
+          
+        </div>
+      </div>
+      <div class="w cp">
+        © 2026 RAGA ILKAL SAREES. All rights reserved.
+      </div>
+    </footer>
+    <div id="toast" role="status" aria-live="polite">
+    </div>
+    <script src="script.js">
+    </script>
+    <div class="floating-social">
+
+  <a href="https://wa.me/918722827574?text=Hello%2C%20I%20am%20interested%20in%20your%20Ilkal%20sarees."
+     class="float-icon whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with us on WhatsApp"
+     title="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <a href="https://www.instagram.com/your_handle/"
+     class="float-icon instagram-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Follow us on Instagram"
+     title="Follow us on Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+</div>
+  </body>
+</html>

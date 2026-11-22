@@ -693,6 +693,41 @@ nav a:hover,nav a.on {
   transform: translateX(0);
 }
 
+/* Ilkal weaving story section */
+
+.ilkal-weaving-copy .tag{
+  display: inline-block;
+  color: #a47c4d;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.float_left .tag{
+  font-size: 16px;
+  display: inline-block;
+  color: #a47c4d;
+   font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.ilkal-weaving-copy h2 {
+  font-size: clamp(25px, 3vw, 34px);
+  line-height: 1.35;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.ilkal-weaving-copy p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 17px;
+}
+
+.ilkal-weaving-copy strong {
+  color: #633d3a;
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {
